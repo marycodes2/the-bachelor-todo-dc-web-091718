@@ -108,6 +108,7 @@ def get_average_age_for_season(data, season)
           if contestant_attributes = :age
             age_of_contestants_in_season << contestant_attributes
           end
+          
         end
       end
     end
