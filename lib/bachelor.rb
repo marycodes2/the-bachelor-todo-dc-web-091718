@@ -116,4 +116,5 @@ def get_average_age_for_season_array(data, season)
 end 
 end
 
-def get_average_age_for_season_array(data, season)
+def get_average_age_for_season(data, season)
+  
