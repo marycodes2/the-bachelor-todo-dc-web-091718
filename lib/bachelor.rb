@@ -122,7 +122,7 @@ def get_average_age_for_season(data, season)
   sum = 0
   avg = 0.0
   for x in array do 
-    x = x.to_i
+    x = x.to_f
     sum = x + sum
   end
   avg = sum / array.length
