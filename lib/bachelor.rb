@@ -80,7 +80,7 @@ def count_contestants_by_hometown(data, hometown)
   return counter
 end
 
-count_contestants_by_hometown(bachelor_data, Denver, Colorado)
+count_contestants_by_hometown(bachelor_data, 'Denver, Colorado')
 
 def get_occupation(data, hometown)
   # code here
