@@ -119,3 +119,7 @@ end
 
 def get_average_age_for_season(data, season)
   array = get_average_age_for_season_array
+  puts array
+end
+
+get_average_age_for_season(bachelor_data, "season 30")
