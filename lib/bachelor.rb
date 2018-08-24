@@ -56,7 +56,8 @@ def get_contestant_name(data, occupation)
   data.each do |season_name, season_data|
       season_data.each do |contestant_line|
         contestant_line.each do |contestant_attributes, contestant_data|
-          if contestant_attributes == :status && contestant_data == "Winner"
+          if contestant_attributes == :hometown && contestant_data == occupation
+            return contestant_line[:name}]
 end
 
 def count_contestants_by_hometown(data, hometown)
