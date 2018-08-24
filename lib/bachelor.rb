@@ -37,7 +37,6 @@ bachelor_data = {
 
 
 def get_first_name_of_season_winner(data, season)
-  binding.pry
   data[season].each do |contestant_data|
     puts data[season].class
     if contestant_data[:status] == "Winner"
