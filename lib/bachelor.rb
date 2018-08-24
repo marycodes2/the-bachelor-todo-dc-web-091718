@@ -50,7 +50,7 @@ def get_first_name_of_season_winner(data, season)
     end 
   end 
 end
-get_first_name_of_season_winner(bachelor_data, "season 30")
+puts get_first_name_of_season_winner(bachelor_data, "season 30")
 
 def get_contestant_name(data, occupation)
   data.each do |season_name, season_data|
