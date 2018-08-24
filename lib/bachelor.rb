@@ -35,7 +35,8 @@ bachelor_data = {
 
 
 def get_first_name_of_season_winner(data, season)
-  data[season].each do |season_name, season_data|
+  data[season].each do |contestant_data|
+    if contestant_data[:status]
     if season_name.to_s == season
       season_data.each do |contestant_line|
         contestant_line.each do |contestant_attributes, contestant_data|
