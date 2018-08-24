@@ -88,6 +88,10 @@ def get_occupation(data, hometown)
         contestant_line.each do |contestant_attributes, contestant_data| 
           if contestant_attributes = :hometown && contestant_data == hometown
             return contestant_line[:name]
+          end
+        end
+      end
+  end 
 end
 
 def get_average_age_for_season(data, season)
