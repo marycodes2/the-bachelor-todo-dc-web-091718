@@ -125,6 +125,7 @@ def get_average_age_for_season(data, season)
     sum = x + sum
   end
   avg = sum / array.length
+  puts avg
   return avg
 end
 
