@@ -40,10 +40,10 @@ def get_first_name_of_season_winner(data, season)
   data.each do |contestant_data|
   puts data[season].class
     if contestant_data[:status] == "Winner"
-    #if season_name.to_s == season
-      #season_data.each do |contestant_line|
-        # contestant_line.each do |contestant_attributes, contestant_data|
-        #   if contestant_attributes == :status && contestant_data == "Winner"
+    if season_name.to_s == season
+      season_data.each do |contestant_line|
+        contestant_line.each do |contestant_attributes, contestant_data|
+          if contestant_attributes == :status && contestant_data == "Winner"
       name = contestant_line[:name]
         name = name.split(" ")
           name = name[0]
