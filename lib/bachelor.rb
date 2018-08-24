@@ -67,7 +67,9 @@ end
 puts get_contestant_name(bachelor_data, "Chiropractic Assistant")
 
 def count_contestants_by_hometown(data, hometown)
-  
+  data.each do |season_name, season_data|
+      season_data.each do |contestant_line|
+        contestant_line.each do |contestant_attributes, contestant_data|  
 end
 
 def get_occupation(data, hometown)
