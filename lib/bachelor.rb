@@ -87,7 +87,7 @@ def get_occupation(data, hometown)
       season_data.each do |contestant_line|
         contestant_line.each do |contestant_attributes, contestant_data| 
           if contestant_attributes = :hometown && contestant_data == hometown
-            puts contestant_line[:name]
+            puts contestant_line[:occupation]
           end
         end
       end
