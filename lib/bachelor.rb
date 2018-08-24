@@ -100,5 +100,5 @@ end
 puts get_occupation(bachelor_data, "Denver, Colorado")
 
 def get_average_age_for_season(data, season)
-  # code here
+  age_of_contestants_in_season = []
 end
