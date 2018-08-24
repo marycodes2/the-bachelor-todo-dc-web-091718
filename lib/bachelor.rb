@@ -120,7 +120,8 @@ end
 def get_average_age_for_season(data, season)
   array = get_average_age_for_season_array(data, season)
   for x in array do 
-    
+    x = x.to_i
+    sum = x + sum
 end
 
 get_average_age_for_season(bachelor_data, "season 30")
