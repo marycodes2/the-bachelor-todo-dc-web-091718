@@ -73,6 +73,11 @@ def count_contestants_by_hometown(data, hometown)
         contestant_line.each do |contestant_attributes, contestant_data| 
           if contestant_attributes = :hometown && contestant_data == hometown
             count += 1
+          end
+        end
+      end
+    end
+  return counter
 end
 
 def get_occupation(data, hometown)
