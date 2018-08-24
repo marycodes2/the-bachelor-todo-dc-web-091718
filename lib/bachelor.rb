@@ -128,4 +128,4 @@ def get_average_age_for_season(data, season)
   return avg
 end
 
-get_average_age_for_season(bachelor_data, "season 30")
+puts get_average_age_for_season(bachelor_data, "season 30")
