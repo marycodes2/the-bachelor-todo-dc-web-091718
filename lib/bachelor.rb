@@ -103,7 +103,7 @@ puts get_occupation(bachelor_data, "Denver, Colorado")
 def get_average_age_for_season_array(data, season)
   age_of_contestants_in_season = []
   data.each do |season_name, season_data|
-    if season_name.to_s = season 
+    if season_name.to_s == season
       season_data.each do |contestant_line|        
         contestant_line.each do |contestant_attributes, contestant_data| 
           if contestant_attributes == :age
