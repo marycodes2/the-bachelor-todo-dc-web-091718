@@ -106,7 +106,7 @@ def get_average_age_for_season_array(data, season)
     if season_name.to_s = season 
       season_data.each do |contestant_line|        
         contestant_line.each do |contestant_attributes, contestant_data| 
-          if contestant_attributes = :age
+          if contestant_attributes == :age
             age_of_contestants_in_season << contestant_attributes
           end
         end
