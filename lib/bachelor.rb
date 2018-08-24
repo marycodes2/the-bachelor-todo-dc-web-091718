@@ -1,3 +1,5 @@
+require "pry
+
 bachelor_data = { 
   "season 30": [
     {
