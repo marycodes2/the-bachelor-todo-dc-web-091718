@@ -53,7 +53,7 @@ end
 get_first_name_of_season_winner(bachelor_data, "season 30")
 
 def get_contestant_name(data, occupation)
-  # code here
+  
 end
 
 def count_contestants_by_hometown(data, hometown)
