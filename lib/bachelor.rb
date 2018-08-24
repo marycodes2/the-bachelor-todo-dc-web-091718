@@ -97,8 +97,10 @@ def get_occupation(data, hometown)
   end 
 end
 
-puts get_occupation_array(bachelor_data, "Denver, Colorado")
-def get_average_age_for_season(data, season)
+puts get_occupation(bachelor_data, "Denver, Colorado")
+
+
+def get_average_age_for_season_array(data, season)
   age_of_contestants_in_season = []
   data.each do |season_name, season_data|
     if season_name.to_s = season 
@@ -113,5 +115,3 @@ def get_average_age_for_season(data, season)
   end
 end 
 end
-
-
