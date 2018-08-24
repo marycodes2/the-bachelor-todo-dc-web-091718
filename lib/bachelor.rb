@@ -43,7 +43,7 @@ def get_first_name_of_season_winner(data, season)
             name = contestant_line[:name]
             name = name.split(" ")
             name = name[0]
-            return name
+            return name.class
           end 
         end 
       end 
