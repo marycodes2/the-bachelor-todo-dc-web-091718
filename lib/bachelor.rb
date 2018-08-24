@@ -115,7 +115,6 @@ def get_average_age_for_season_array(data, season)
   end
 end
 return age_of_contestants_in_season
-end
 
 def get_average_age_for_season(data, season)
   array = get_average_age_for_season_array
