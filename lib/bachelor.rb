@@ -83,7 +83,7 @@ end
 puts count_contestants_by_hometown(bachelor_data, 'Denver, Colorado')
 
 def get_occupation(data, hometown)
-  # code here
+  
 end
 
 def get_average_age_for_season(data, season)
