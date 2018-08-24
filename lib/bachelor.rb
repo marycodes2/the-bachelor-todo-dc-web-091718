@@ -57,8 +57,6 @@ def get_contestant_name(data, occupation)
       season_data.each do |contestant_line|
         contestant_line.each do |contestant_attributes, contestant_data|
           if contestant_attributes == :occupation && contestant_data == occupation
-            puts "HI"
-            puts contestant_line[:name]
             return contestant_line[:name]
           end
         end
