@@ -26,7 +26,7 @@ bachelor_data = {
     {
       "name":       "Sam Grover",
       "age":        "29",
-      "hometown":   "New York, New York",
+      "hometown":   "Denver, Colorado",
       "occupation": "Entertainer",
       "status":     "Eliminated Week 6"
     }
