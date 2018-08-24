@@ -94,7 +94,7 @@ def get_occupation(data, hometown)
   end 
 end
 
-get_occupation(bachelor_data, "'Denver, Colorado'")
+get_occupation(bachelor_data, "Denver, Colorado")
 
 def get_average_age_for_season(data, season)
   # code here
