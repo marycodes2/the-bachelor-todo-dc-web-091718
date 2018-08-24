@@ -123,6 +123,9 @@ def get_average_age_for_season(data, season)
   for x in array do 
     x = x.to_i
     sum = x + sum
+  end
+  avg = sum / array.length
+  return avg
 end
 
 get_average_age_for_season(bachelor_data, "season 30")
