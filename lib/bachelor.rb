@@ -72,7 +72,7 @@ def count_contestants_by_hometown(data, hometown)
       season_data.each do |contestant_line|
         contestant_line.each do |contestant_attributes, contestant_data| 
           if contestant_attributes = :hometown && contestant_data == hometown
-            count += 1
+            counter += 1
           end
         end
       end
